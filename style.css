@@ -1,0 +1,35 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    border: 3px solid black;
+    border-radius: 10px 100px 50px 0px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    height: 10%;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    transition: height 1s ease, transform 1s ease;
+    overflow: hidden;
+    transform-origin: top left;
+    transform: scale(1);
+}
+header:hover{
+    height: 20%;
+    transform: scale(1.1);
+}
+header div{
+    border: 3px solid black;
+    border-radius: 10px;
+    transform: rotate(90deg);
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 200px;
+    top: 10px;
+    
+}
